@@ -1,0 +1,14 @@
+Package: SwipProteomics
+Title: Analysis of Swip TMT Spatial Proteomics
+Version: 0.0.1.0000
+Authors@R: 
+    person(given = "Tyler",
+           family = "Bradshaw",
+           role = c("aut", "cre"),
+           email = "twesleyb10@gmail.com",
+           comment = c(ORCID = "0000-0003-4480-1187"))
+Description: WASH BioID and SWIP TMT proteomics data from Courtland et al., 2021
+License: CC4
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
