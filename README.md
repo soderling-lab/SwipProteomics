@@ -6,13 +6,15 @@ analyses performed by
 
 The analysis utilizes functions from
 [soderling-lab/tidyProt](https://github.com/soderling-lab/tidyProt) to peform
-protein- and module- level comparisions.
-Key data and results are saved as R objects in `data/`. These can be accessed in
-R using the `data()` function. 
+protein- and module- level comparisions (see example below).  Key data and
+results are saved as R objects in `data/`. These can be accessed in R using the
+`data()` function. For example, load the Swip spatial proteomics partition with
+`data(swip_partition, package="SwipProteomics")`.
 
-The statistical results can be found in the `tables/` directory.
+The statistical results for protein- and module-level analyses can be found in
+the `tables/` directory.
 
-Maps for plasmids using in the study are in the `sequences/` directory.
+Maps for plasmids used by this study are in the `sequences/` directory.
 
 ![wash-module](./elife-image.png)
 
@@ -22,7 +24,7 @@ Maps for plasmids using in the study are in the `sequences/` directory.
 # download the repository as an R package
 devtools::install_github("soderling-lab/SwipProteomics")
 
-# tidyProt for statistical functions
+# install tidyProt for statistical functions
 devtools::install_github("soderling-lab/tidyProt")
 
 library(dplyr)
@@ -31,7 +33,7 @@ library(tidyProt)
 library(SwipProteomics)
 
 
-# load the normalized data
+# load the normalized TMT data
 data(swip_tmt)
 
 # washc4's uniprot ID
