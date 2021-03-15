@@ -85,3 +85,18 @@ knitr::kable(res)
 |Contrast       |    log2FC| percentControl|        SE| Tstatistic| Pvalue|  DF|        S2|isSingular |
 |:--------------|---------:|--------------:|---------:|----------:|------:|---:|---------:|:----------|
 |Mutant-Control | -1.379633|      0.3843165| 0.0392109|  -35.18497|      0| 151| 0.0645747|FALSE      |
+
+
+## Citation
+```
+@article{Courtland2021,
+	title        = {Genetic Disruption of WASHC4 Drives Endo-lysosomal Dysfunction and Cognitive-Movement Impairments in Mice and Humans},
+	author       = {Jamie L. Courtland and Tyler W. A. Bradshaw and Greg Waitt and Erik J. Soderblom and Tricia Ho and Anna Rajab and
+			Ricardo Vancini and Il Hwan Kim and Scott H. Soderling},
+	year         = 2021,
+	month        = {March},
+	journal      = {eLife},
+	doi          = {https://doi.org/10.7554/eLife.61590},
+	url          = {none}
+}
+```
