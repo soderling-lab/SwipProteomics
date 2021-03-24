@@ -1,15 +1,15 @@
 # SwipProteomics
 
-This repository contains the raw [TMT](./inst/extdata/TMT.zip) 
-and [BioID](./inst/extdata/BioID.zip) proteomics data associated with the
-analyses performed by 
-[Courtland _et al._, 2021](https://www.biorxiv.org/content/10.1101/2020.08.06.239517v1) [1].
+This repository contains the raw [TMT](./inst/extdata/TMT.zip) and
+[BioID](./inst/extdata/BioID.zip) proteomics data associated with the analyses
+performed by [Courtland _et al._,
+2021](https://elifesciences.org/articles/61590) [1].
 
 The analysis utilizes functions from
 [soderling-lab/tidyProt](https://github.com/soderling-lab/tidyProt) to peform
 protein- and module- level comparisions (see example below).  Key data and
-results are saved as R objects in `data/`. These can be accessed in R using the
-`data()` function. For example, load the Swip spatial proteomics partition with
+results are saved as R objects in the `data/` directory. These can be accessed in R using the
+`data()` function. For example, load the Swip spatial proteome network partition with
 `data(swip_partition, package="SwipProteomics")`.
 
 
@@ -99,7 +99,7 @@ knitr::kable(res)
 |Mutant-Control | -1.379633|      0.3843165| 0.0392109|  -35.18497|      0| 151| 0.0645747|FALSE      |
 
 
-## Citation
+## Bibtex Citation
 ```
 @article{Courtland2021,
 	title        = {Genetic Disruption of WASHC4 Drives Endo-lysosomal Dysfunction and Cognitive-Movement Impairments in Mice and Humans},
@@ -118,8 +118,8 @@ knitr::kable(res)
 __[1]__ Genetic Disruption of WASHC4 Drives Endo-lysosomal Dysfunction and
 Cognitive-Movement Impairments in Mice and Humans.  
 Courtland J.L., Bradshaw T.W.A., Waitt G., Soderblom E., Ho T., Rajab A.,
-Vancini R., Kim I.H., Soderling S.H. (2021). _eLife_.
-[preprint](https://www.biorxiv.org/content/10.1101/2020.08.06.239517v1)
+Vancini R., Kim I.H., Soderling S.H. (2021). _eLife_; 10:e61590 
+[doi: 10.7554/eLife.61590](https://elifesciences.org/articles/61590)
 
 __[2]__ From Louvain to Leiden: guaranteeing well-connected communities.   
 Traag, V.A., Waltman. L., Van Eck, N.-J. (2018). _Scientific reports_, 9(1), 5233.
