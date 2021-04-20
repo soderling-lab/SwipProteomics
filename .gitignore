@@ -1,3 +1,4 @@
 ## project specific directories to ignore
 ARCHIVE/
 rdata/
+ai/
