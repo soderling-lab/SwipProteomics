@@ -6,8 +6,8 @@ performed by [Courtland _et al._,
 2021](https://elifesciences.org/articles/61590) [1].
 
 The analysis utilizes functions from
-[soderling-lab/tidyProt](https://github.com/soderling-lab/tidyProt) to peform
-protein- and module- level comparisions (see example below).  Key data and
+[soderling-lab/tidyProt](https://github.com/soderling-lab/tidyProt) to perform
+protein- and module- level comparisons (see example below).  Key data and
 results are saved as R objects in the `data/` directory. These can be accessed in R using the
 `data()` function. For example, load the Swip spatial proteome network partition with
 `data(swip_partition, package="SwipProteomics")`.
@@ -20,7 +20,7 @@ the `tables/` directory.
 
 Maps for plasmids used by this study are in the `sequences/` directory.
 
-A cytoscape graph of the Swip spatial proteome partitioned into 49 modules using
+A Cytoscape graph of the Swip spatial proteome partitioned into 49 modules using
 [network enhancement](https://github.com/soderling-lab/neten) [2] and the 
 [leiden algorithm](https://github.com/soderling-lab/leiden) [3] is available in
 [inst/extdata](./inst/extdata/SwipSpatialProteome.cys).
@@ -99,7 +99,7 @@ knitr::kable(res)
 |Mutant-Control | -1.379633|      0.3843165| 0.0392109|  -35.18497|      0| 151| 0.0645747|FALSE      |
 
 
-## Bibtex Citation
+## BibTeX Citation
 ```
 @article{Courtland2021,
 	title        = {Genetic Disruption of WASHC4 Drives Endo-lysosomal Dysfunction and Cognitive-Movement Impairments in Mice and Humans},
