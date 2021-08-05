@@ -14,7 +14,7 @@ root = "~/projects/SwipProteomics"
 
 ## ---- Prepare environment 
 
-renv::load(root,quiet=TRUE)
+#renv::load(root,quiet=TRUE)
 
 # library(SwipProteomics)
 devtools::load_all(root, quiet=TRUE)
